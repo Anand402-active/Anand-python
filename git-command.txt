@@ -1,0 +1,796 @@
+
+AnandKumar@AnandKumar-PC MINGW64 ~ (master)
+$
+
+
+
+AnandKumar@AnandKumar-PC MINGW64 ~ (master)
+$
+
+
+
+AnandKumar@AnandKumar-PC MINGW64 ~ (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 ~ (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 ~ (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 ~ (master)
+$ cd D:\python_workspace
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace
+$
+
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace
+$ git@github.com:Anand402-active/Anand-python.git
+bash: git@github.com:Anand402-active/Anand-python.git: No such file or directory
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace
+$ git@github.com:Anand402-active/Anand-python.git
+bash: git@github.com:Anand402-active/Anand-python.git: No such file or directory
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace
+$ git clone git@github.com:Anand402-active/Anand-python.git
+Cloning into 'Anand-python'...
+The authenticity of host 'github.com (13.234.210.38)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,13.234.210.38' (RSA) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace
+$ https://github.com/Anand402-active/Anand-python.git
+bash: https://github.com/Anand402-active/Anand-python.git: No such file or directory
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace
+$ git clone https://github.com/Anand402-active/Anand-python.git
+Cloning into 'Anand-python'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace
+$ git init
+Initialized empty Git repository in D:/python_workspace/.git/
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Anand-python/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git remote add origin https://github.com/Anand402-active/Anand-python.git
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Anand-python/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git add *
+warning: adding embedded git repository: Anand-python
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> Anand-python
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached Anand-python
+hint:
+hint: See "git help submodule" for more information.
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git rm --cached Anand-python
+error: the following file has staged content different from both the
+file and the HEAD:
+    Anand-python
+(use -f to force removal)
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git rm --cached -f Anand-python
+rm 'Anand-python'
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git stats
+git: 'stats' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Anand-python/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git add *
+warning: adding embedded git repository: Anand-python
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> Anand-python
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached Anand-python
+hint:
+hint: See "git help submodule" for more information.
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git init
+Reinitialized existing Git repository in D:/python_workspace/.git/
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git remote add origin https://github.com/Anand402-active/Anand-python.git
+fatal: remote origin already exists.
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git remote set- origin https://github.com/Anand402-active/Anand-python.git
+set-branches   set-head       set-url
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git remote set-url origin https://github.com/Anand402-active/Anand-python.git 
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git sta
+stage    stash    status
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git sta
+stage    stash    status
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git sta
+stage    stash    status
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git status Anand-python Anand-python Anand-python
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Anand-python
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Anand-python
+
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git pull
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/Anand402-active/Anand-python
+ * [new branch]      master     -> origin/master
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git add *
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git pull origin
+You asked to pull from the remote 'origin', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git pull origin master
+From https://github.com/Anand402-active/Anand-python
+ * branch            master     -> FETCH_HEAD
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git add *
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   exceptionhandling.py
+
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git commit -m "First commit"
+[master 88294e5] First commit
+ 1 file changed, 15 insertions(+)
+ create mode 100644 exceptionhandling.py
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git push origin master
+
+
+
+
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 486 bytes | 162.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+
+To https://github.com/Anand402-active/Anand-python.git
+   86d4ea4..88294e5  master -> master
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git sta
+stage    stash    status
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git sta
+stage    stash    status
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git sta
+stage    stash    status
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git sta
+stage    stash    status
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git sta
+stage    stash    status
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git ?
+git: '?' is not a git command. See 'git --help'.
+
+The most similar commands are
+        am
+        gc
+        mv
+        p4
+        rm
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git push origin master
+Everything up-to-date
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file1.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git add file1.py file1.py file1.py
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   file1.py
+
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git commit -m "Test python file commit"
+[master a91e9fd] Test python file commit
+ 1 file changed, 19 insertions(+)
+ create mode 100644 file1.py
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git push origin master
+
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 570 bytes | 285.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+
+
+
+
+To https://github.com/Anand402-active/Anand-python.git
+   88294e5..a91e9fd  master -> master
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        whatsapp.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git add whatsapp.py
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git commit
+hint: Waiting for your editor to close the file... 'C:/program\Files/sublinetext.exe' -n-w: C:/program\Files/sublinetext.exe: No such file or directory
+error: There was a problem with the editor ''C:/program\Files/sublinetext.exe' -n-w'.
+Please supply the message using either -m or -F option.
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git commit -m "hello whattsapp"
+[master 5e022b4] hello whattsapp
+ 1 file changed, 26 insertions(+)
+ create mode 100644 whatsapp.py
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 790 bytes | 197.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Anand402-active/Anand-python.git
+   a91e9fd..5e022b4  master -> master
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git pull ?
+fatal: '?' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git pull origin master
+From https://github.com/Anand402-active/Anand-python
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git pull *
+fatal: invalid gitfile format: exceptionhandling.py
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git pull file1.py
+fatal: 'file1.py' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git pull origin master
+From https://github.com/Anand402-active/Anand-python
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    file1.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git pull origin master
+From https://github.com/Anand402-active/Anand-python
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git fetch
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git pull
+
+
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git pull origin
+You asked to pull from the remote 'origin', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git re
+rebase         remote         replace        reset          revert
+reflog         repack         request-pull   restore
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git re
+rebase         remote         replace        reset          revert
+reflog         repack         request-pull   restore
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git re
+rebase         remote         replace        reset          revert
+reflog         repack         request-pull   restore
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git res
+reset     restore
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git reset -file1.py
+error: unknown switch `f'
+usage: git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]
+   or: git reset [-q] [<tree-ish>] [--] <paths>...
+   or: EXPERIMENTAL: git reset [-q] [--stdin [-z]] [<tree-ish>]
+   or: git reset --patch [<tree-ish>] [--] [<paths>...]
+
+    -q, --quiet           be quiet, only report errors
+    --mixed               reset HEAD and index
+    --soft                reset only HEAD
+    --hard                reset HEAD, index and working tree
+    --merge               reset HEAD, index and working tree
+    --keep                reset HEAD but keep local changes
+    --recurse-submodules[=<reset>]
+                          control recursive updating of submodules
+    -p, --patch           select hunks interactively
+    -N, --intent-to-add   record only the fact that removed paths will be added later
+    -z                    EXPERIMENTAL: paths are separated with NUL character
+    --stdin               EXPERIMENTAL: read paths from <stdin>
+
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git reset
+Unstaged changes after reset:
+D       file1.py
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git reset --
+--hard                 --mixed                --quiet
+--intent-to-add        --no-...               --recurse-submodules
+--keep                 --no-quiet             --soft
+--merge                --patch                --stdin
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git reset --
+--hard                 --mixed                --quiet
+--intent-to-add        --no-...               --recurse-submodules
+--keep                 --no-quiet             --soft
+--merge                --patch                --stdin
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git reset --hard
+HEAD is now at 5e022b4 hello whattsapp
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git reset
+Unstaged changes after reset:
+D       file1.py
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
+$ git reset --hard
+HEAD is now at 5e022b4 hello whattsapp
+
+AnandKumar@AnandKumar-PC MINGW64 /d/python_workspace (master)
